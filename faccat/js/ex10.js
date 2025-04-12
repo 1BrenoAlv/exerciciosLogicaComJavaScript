@@ -3,5 +3,5 @@ function exercicio10(){
     let custoFabrica = parseInt(prompt("Digite o custo de fabricação: "))
     let  distruidora = custoFabrica*28/100
     let  impostos = custoFabrica*45/100
-    alert(`O custo final é R$${custoFabricaustoFabrica+distruidora+impostos}`)
+    alert(`O custo final é R$${custoFabrica+distruidora+impostos}`)
 }
