@@ -1,15 +1,15 @@
 function exercicio21() {
-    alert("Ordem Crescente.")
-    let numero1 = parseInt(prompt("Digite um número: "))
-    let numero2 = parseInt(prompt("Digite outro número(não pode ser igual ao anterior): "))
+    alert("Calcular tempo de partida.")
+    let inicio = parseInt(prompt("Digite o horário de início da partida:(Apenas horas inteiras) "))
+    let fim = parseInt(prompt("Digite o horário do termino da partida:(Apenas horas inteiras) "))
+    let total
     
-    if (numero1 == numero2) {
-        alert(`Número Iguais`)
-    }
-    else if (numero1 < numero2){
-        alert(`Números digitados em ordem crescente ficou: ${numero1} | ${numero2}`)
+    if (inicio < fim) {
+        total = fim-inicio
+        alert(`A partida durou ${total} horas`)
     }
     else{
-        alert(`Números digitados em ordem crescente ficou: ${numero2} | ${numero1}`)
+        total = (24-inicio)+fim
+        alert(`A partida durou ${total} horas`)
     }
 }
