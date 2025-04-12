@@ -1,8 +1,14 @@
 function exercicio14(){
-    alert("Calcular média.")
-    let numero1 = parseInt(prompt("Digite o 1° número: "))
-    let numero2 = parseInt(prompt("Digite o 2° número: "))
-    let numero3 = parseInt(prompt("Digite o 3° número: "))
-    let media = (numero1*2+numero2*3+numero3*5)/10
-    alert(`A média é ${media}.`)
+    alert("Dizer se é maior ou menor que 10.")
+    let numero = parseInt(prompt("Digite um número: "))
+
+    if (numero>10){
+        alert("Esse número é maior que 10!")
+    }
+    else if (numero == 10){
+        alert("Esse número é igual a 10!")
+    }
+    else{
+        alert("Esse número é menor que 10!")
+    }
 }
