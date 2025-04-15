@@ -5,11 +5,7 @@ function exercicio43() {
     let c = parseInt(prompt("Digite o valor de C:"))
     let mens
 
-    idade = anoAtual - anoN
-    idadeE = anoAtual - anoI
-    alert(`Código: ${codigo}\nIdade: ${idade}\nAnos de empresa: ${idadeE}`)
-
-    if (a < b + c && b < a + c && c < a + b) {
+    if ((a < b + c) && (b < a + c) && (c < a + b)) {
         if (a == b && b == c) {
             mens = "Triângulo Equilátero"
         } 
@@ -23,4 +19,5 @@ function exercicio43() {
     else {
         mens = "Não é um triângulo"
     }
+    alert(`A: ${a}\nB: ${b}\nC: ${c}\nTipo: ${mens}`)
 }
