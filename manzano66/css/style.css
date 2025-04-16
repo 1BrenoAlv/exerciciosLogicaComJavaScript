@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-template-columns: (4, 1fr);
+    grid-template-rows: (4, 1fr);
+}
+h2{
+    font-size: 50px;
+}
+img{
+    width: 100px;
+}
+
+.botoes{
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 500px;
+    margin: 10px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+button:hover{
+    background: rgba(0, 0, 255,0.5);
+}
+
