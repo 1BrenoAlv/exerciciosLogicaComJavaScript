@@ -47,9 +47,3 @@ for (horaDigitada = horaDigitada; horaDigitada > -1; horaDigitada--) {
     } minutosDigitado = 59
 }
 }
-
-
-
-
-
-
