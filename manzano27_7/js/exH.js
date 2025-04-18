@@ -1,0 +1,22 @@
+function exercicioH(){
+    alert("Trocas de valores(Números ou palavras)")
+    let a = parseFloat(prompt("Digite o primeiro valor: "))
+    let b = parseFloat(prompt("Digite o segundo valor: "))
+    let c = parseFloat(prompt("Digite o terceiro valor: "))
+    let d = parseFloat(prompt("Digite o quarto valor: "))
+    
+    alert(`Valores Somados:`)
+    alert(`Valor de A + B: ${a+b}`)
+    alert(`Valor de A + C: ${a+c}`)
+    alert(`Valor de A + D: ${a+d}`)
+    alert(`Valor de B + C ${b+c}`)
+    alert(`Valor de B + D: ${b+d}`)
+    alert(`Valor de C + D: ${c+d}`)
+    alert(`Valores Multiplicados:`)
+    alert(`Valor de A x B: ${a*b}`)
+    alert(`Valor de A x C: ${a*c}`)
+    alert(`Valor de A x D: ${a*d}`)
+    alert(`Valor de B x C: ${b*c}`)
+    alert(`Valor de B x D: ${b*d}`)
+    alert(`Valor de C x D: ${c*d}`)
+}
