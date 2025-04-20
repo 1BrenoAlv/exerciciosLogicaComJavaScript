@@ -3,7 +3,7 @@ function exercicioG() {
     let num1 = parseFloat(prompt("Digite o primeiro número: "))
     let num2 = parseFloat(prompt("Digite o segundo número:"))
     let num3 = parseFloat(prompt("Digite o terceiro número: "))
-    let num4 = parseFloat(prompt("Digite o quarto valor: "))
+    let num4 = parseFloat(prompt("Digite o quarto número: "))
 
     if (num1 % 2 == 0 && num1 % 3 == 0) {
         alert(`O primeiro valor é divisível!`)
